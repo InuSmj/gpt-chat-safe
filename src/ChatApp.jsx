@@ -69,7 +69,7 @@ function ChatApp() {
       <h2>🎥 GPT 기반 영화 추천</h2>
       <input
         type="text"
-        placeholder="지금 기분을 입력하세요"
+        placeholder="어떤 영화가 필요하세요?"
         value={mood}
         onChange={(e) => setMood(e.target.value)}
       />
